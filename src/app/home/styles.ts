@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#d0d2d8",
     alignItems: "center",
-    paddingTop: 64,
+    paddingTop: 76,
   },
 
   logo: {
@@ -28,5 +28,39 @@ export const styles = StyleSheet.create({
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     padding: 24,
+    paddingTop: 32,
+  },
+
+  header: {
+    width: "100%",
+    flexDirection: "row",
+    gap: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: "#e4e6ec",
+    paddingBottom: 12,
+  },
+
+  button: {
+    marginLeft: "auto",
+  },
+
+  text: {
+    color: "#828282",
+    fontSize: 12,
+    fontWeight: 600,
+  },
+
+  separator: {
+    width: "100%",
+    height: 1,
+    backgroundColor: "#e4e6ec",
+  },
+
+  empty: {
+    fontSize: 14,
+    fontFamily: "System",
+    marginTop: "50%",
+    textAlign: "center",
+    color: "#808080",
   },
 });
