@@ -6,5 +6,5 @@ type ButtonProps = TextInputProps & {
 };
 
 export function Input({ ...rest }: ButtonProps) {
-  return <TextInput style={styles.input} {...rest} />;
+  return <TextInput style={styles.input} placeholderTextColor={"#808080"} {...rest} />;
 }
